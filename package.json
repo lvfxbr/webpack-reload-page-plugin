@@ -1,0 +1,22 @@
+{
+    "name": "webpack-reload-page-plugin",
+    "version": "0.1.0",
+    "description": "A basic Webpack plugin to reload page when you are editing project files.",
+    "author": "Lucas Vendramini <98402608+lvfxbr@users.noreply.github.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "webpack --config webpack.config.js"
+    },
+    "dependencies": {
+        "chalk": "^4",
+        "ws": "^8.5.0"
+    },
+    "devDependencies": {
+        "css-loader": "^6.7.1",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.6.0",
+        "webpack": "^5.71.0",
+        "webpack-cli": "^4.9.2"
+    }
+}
